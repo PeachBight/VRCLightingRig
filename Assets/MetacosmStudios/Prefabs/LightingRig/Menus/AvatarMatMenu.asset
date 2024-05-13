@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: AvatarMatMenu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Show In Mirror
+    icon: {fileID: 2800000, guid: 45378bf4932d5ff48ba920fea4c68793, type: 3}
+    type: 102
+    parameter:
+      name: RobotShowInMirror
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Invisible
+    icon: {fileID: 2800000, guid: 1b292fed7903d42498ba930382480bc1, type: 3}
+    type: 102
+    parameter:
+      name: RobotInvisible
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Show in VRCLens
+    icon: {fileID: 2800000, guid: 14a531d0d768b824c9bc9a1cf91733f1, type: 3}
+    type: 102
+    parameter:
+      name: RobotShowInVRCL
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

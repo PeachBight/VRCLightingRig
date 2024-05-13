@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: NewLight1Menu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Properties
+    icon: {fileID: 2800000, guid: 30891e000b76dfc4db977fc2238911a0, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: c032115dc57304c4d8afdf4762ec8746, type: 2}
+    subParameters: []
+    labels: []
+  - name: Light Off
+    icon: {fileID: 2800000, guid: 2b5f0c5f1d7b1c64cac4dea76a44090d, type: 3}
+    type: 102
+    parameter:
+      name: Light1_type
+    value: 0
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Direction Light
+    icon: {fileID: 2800000, guid: f99ca8908e61b794faa6de39b41c3458, type: 3}
+    type: 102
+    parameter:
+      name: Light1_type
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Point Light
+    icon: {fileID: 2800000, guid: 85964a1daabb9d24da6f500ca027a84a, type: 3}
+    type: 102
+    parameter:
+      name: Light1_type
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Spot Light
+    icon: {fileID: 2800000, guid: 7d3885ea62f50f84080fbcba6d020b47, type: 3}
+    type: 102
+    parameter:
+      name: Light1_type
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Right Handed?
+    icon: {fileID: 2800000, guid: 70532155452b91149bd82125c362ca6b, type: 3}
+    type: 102
+    parameter:
+      name: Light1_righthand
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

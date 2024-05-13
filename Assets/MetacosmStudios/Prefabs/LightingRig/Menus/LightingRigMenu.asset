@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: LightingRigMenu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Light Rig On
+    icon: {fileID: 2800000, guid: 85964a1daabb9d24da6f500ca027a84a, type: 3}
+    type: 102
+    parameter:
+      name: LightRigOn
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Light2
+    icon: {fileID: 2800000, guid: ed69b386b5c32c0418113a9b2b292486, type: 3}
+    type: 103
+    parameter:
+      name: Light2_menu
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 46ab9732a1128e846b43d0d02f8accf4, type: 2}
+    subParameters: []
+    labels: []
+  - name: Backup System
+    icon: {fileID: 2800000, guid: 55c40c6cf7ef7b2478ce3b7d6b3fa675, type: 3}
+    type: 102
+    parameter:
+      name: Light_backup
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Light1
+    icon: {fileID: 2800000, guid: 4bfb81b7d56a3ca449aaaf0615c714f9, type: 3}
+    type: 103
+    parameter:
+      name: Light1_menu
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 07832c8f597e49f40b04ebd41f0828a6, type: 2}
+    subParameters: []
+    labels: []
