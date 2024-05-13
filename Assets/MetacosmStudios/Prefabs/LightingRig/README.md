@@ -31,8 +31,8 @@ NOTE: This system requires **175 bits of expression memory!!!** Please make sure
 8. Drag the the `ResetTarget` GameObject into your avatar's hip bone
     * you may choose any descendent bone, but the hip is recommended
     * This is a part of World Sync by Juzo, more info available in `Assets/WorldSync/ReadMe.md`
-9. Drag the your avatar's hip bone into Cullfix's Parent Constraint source
-9. Upload your avatar as per usual
+9. Drag your avatar's hip bone into Cullfix's Parent Constraint source
+10. Upload your avatar as per usual
 
 ## Usage
 
