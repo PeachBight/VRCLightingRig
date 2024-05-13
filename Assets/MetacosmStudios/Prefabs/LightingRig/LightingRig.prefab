@@ -5210,6 +5210,7 @@ GameObject:
   - component: {fileID: 4423012304469924283}
   - component: {fileID: 6414203495648640721}
   - component: {fileID: 6627040581065335240}
+  - component: {fileID: 1367472827466402097}
   m_Layer: 0
   m_Name: Cullfix
   m_TagString: Untagged
@@ -5282,6 +5283,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1818360608 &1367472827466402097
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8444857475574078493}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_Active: 0
+  m_IsLocked: 0
+  m_Sources:
+  - sourceTransform: {fileID: 0}
+    weight: 1
 --- !u!1 &8593660165339804634
 GameObject:
   m_ObjectHideFlags: 0
