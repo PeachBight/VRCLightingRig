@@ -3584,8 +3584,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.859.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.894.0
   somethingIsBroken: 0
   config:
     features: []
@@ -3610,7 +3610,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: b264991e954393f4c89bbf73631a0bb8|Assets/MetacosmStudios/Robot/AnimationControllers/DummyBot_FX.controller
+            id: b264991e954393f4c89bbf73631a0bb8|Assets/MetacosmStudios/Prefabs/LightingRig/Example/DummyBot_FX.controller
             objRef: {fileID: 9100000, guid: b264991e954393f4c89bbf73631a0bb8, type: 2}
           type: 5
         menus:
@@ -5651,8 +5651,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 3
-  unityVersion: 2022.3.6f1
-  vrcfuryVersion: 1.859.0
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.894.0
   somethingIsBroken: 0
   config:
     features: []
@@ -6074,16 +6074,24 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 946656258712743802, guid: a1def2674b3098b4db59db88148c6a9c,
         type: 3}
+      propertyPath: unityVersion
+      value: 2022.3.22f1
+      objectReference: {fileID: 0}
+    - target: {fileID: 946656258712743802, guid: a1def2674b3098b4db59db88148c6a9c,
+        type: 3}
       propertyPath: expressionsMenu
       value: 
-      objectReference: {fileID: 11400000, guid: 9a6c4d4fbea251b40b3d6615c72a280b,
-        type: 2}
+      objectReference: {fileID: 0}
+    - target: {fileID: 946656258712743802, guid: a1def2674b3098b4db59db88148c6a9c,
+        type: 3}
+      propertyPath: customExpressions
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 946656258712743802, guid: a1def2674b3098b4db59db88148c6a9c,
         type: 3}
       propertyPath: expressionParameters
       value: 
-      objectReference: {fileID: 11400000, guid: a21073e5cf0af6f4bb8ddb6685f2f32c,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 946656258712743802, guid: a1def2674b3098b4db59db88148c6a9c,
         type: 3}
       propertyPath: animationHashSet.Array.size
@@ -6391,9 +6399,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 946656258712743802, guid: a1def2674b3098b4db59db88148c6a9c,
         type: 3}
+      propertyPath: baseAnimationLayers.Array.data[4].isDefault
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 946656258712743802, guid: a1def2674b3098b4db59db88148c6a9c,
+        type: 3}
       propertyPath: baseAnimationLayers.Array.data[4].animatorController
       value: 
-      objectReference: {fileID: 9100000, guid: b264991e954393f4c89bbf73631a0bb8, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 1139562737841505608, guid: a1def2674b3098b4db59db88148c6a9c,
         type: 3}
       propertyPath: m_Name

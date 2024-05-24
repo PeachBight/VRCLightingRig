@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AvatarMatMainMenu
   m_EditorClassIdentifier: 
   controls:
-  - name: Avatar
+  - name: Lamp Visibility
     icon: {fileID: 2800000, guid: 1b292fed7903d42498ba930382480bc1, type: 3}
     type: 103
     parameter:

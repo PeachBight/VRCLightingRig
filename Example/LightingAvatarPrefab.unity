@@ -427,36 +427,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9008624472990082081, guid: 56b9b0908923fed4b93e527e67b53564,
-        type: 3}
-      propertyPath: unityVersion
-      value: 2022.3.6f1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9008624472990082081, guid: 56b9b0908923fed4b93e527e67b53564,
-        type: 3}
-      propertyPath: expressionsMenu
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9008624472990082081, guid: 56b9b0908923fed4b93e527e67b53564,
-        type: 3}
-      propertyPath: customExpressions
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9008624472990082081, guid: 56b9b0908923fed4b93e527e67b53564,
-        type: 3}
-      propertyPath: expressionParameters
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9008624472990082081, guid: 56b9b0908923fed4b93e527e67b53564,
-        type: 3}
-      propertyPath: baseAnimationLayers.Array.data[4].isDefault
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9008624472990082081, guid: 56b9b0908923fed4b93e527e67b53564,
-        type: 3}
-      propertyPath: baseAnimationLayers.Array.data[4].animatorController
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

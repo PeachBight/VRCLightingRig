@@ -13,8 +13,9 @@ NOTE: This system requires **175 bits of expression memory!!!** Please make sure
 
 ### Dependencies
 
+* [VRC Camera Shy Shader](https://github.com/PeachBight/VRCCameraShyShader)
 * [VRCFury](https://vrcfury.com/) is absolutely required.
-* [World Sync ](https://github.com/JuzoVR/WorldSync) v3_18_2024
+* [World Sync](https://github.com/JuzoVR/WorldSync) v3_18_2024
 * VRChat SDK - Avatars 3.1.9+ (created with 3.6.0)
 
 ### Installing
@@ -75,7 +76,7 @@ Note: This option does *NOT* allow someone else to manipulate the position and r
 
 ### Hiding Lamps
 You may hide the meshes for the lamps if needed, or make them visible in camera. By default, lamps are not visible in-camera nor in mirrors.
-1. Go to the Avatar Menu
+1. Go to the Lamp Visibility Menu
 2. Toggle on/off `Show in VRCLens` to appear or disappear in the camera
 3. Toggle on/off `Show In Mirror` to appear or disappear from the mirror
 4. Toggle on/off `Invisible` to make the meshes disappear completely (renderers off)
