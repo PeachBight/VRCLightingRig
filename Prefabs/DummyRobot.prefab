@@ -61,7 +61,17 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 953beaa9282d55a4594413a8a91e3d79,
         type: 3}
       propertyPath: m_Name
-      value: DummyRobot Variant
+      value: DummyRobot
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285128077695161519, guid: 953beaa9282d55a4594413a8a91e3d79,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285128077695161519, guid: 953beaa9282d55a4594413a8a91e3d79,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4285128077695161519, guid: 953beaa9282d55a4594413a8a91e3d79,
         type: 3}
