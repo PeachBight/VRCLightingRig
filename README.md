@@ -55,7 +55,7 @@ Configure real-time light properties for Type, Color, Intensity, Range, Angle, a
 3. Go into the `Properties` sub-menu to change the light properties
     1. Choose the light color using the `Color` sub-menu (uses RGB model)
     2. Change the light strength using the `Intensity` radial 
-        * goes from  0%=>`0.1` to 50%=>`10` to 100%=>`40`
+        * goes from  0%=>`0.01` to 50%=>`1` to 100%=>`10`
     3. Change the range using the `Range` radial 
         * goes from  0%=>`0.25m` to 50%=>`20.25m` to 100%=>`220.25m`
     4. Change the spotlight angle using the `Angle` radial 
