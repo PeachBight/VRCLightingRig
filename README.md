@@ -34,6 +34,7 @@ NOTE: This system requires **175 bits of expression memory!!!** Please make sure
 ## Usage
 
 ### How to position the lights
+
 This method depend on phys bones and World Sync to work as expected. See the Backup system if this is broken.
 1. Toggle on the `Light Rig On` option to show the lamps
 2. Drop the rig using the World Sync Drop
@@ -45,6 +46,7 @@ This method depend on phys bones and World Sync to work as expected. See the Bac
 Note: Another VR user may position the lights once the light rig is on
 
 ### How to configure the lights
+
 Configure real-time light properties for Type, Color, Intensity, Range, Angle, and Shadows
 1. Go into either the `Light 1` and `Light 2` sub-menu to configure the light
 2. Change the light into either a `Directional`, `Point`, or `Spot` light, using the indicated toggles (or toggle off)
@@ -61,6 +63,7 @@ Configure real-time light properties for Type, Color, Intensity, Range, Angle, a
 Note: All these settings are synced and saved for convenience
 
 ### How to position the lights using the Backup System
+
 This backup system uses hand gestures to move the lamps.
 1. Toggle on the `Light Rig On` option to show the lamps
 2. Toggle on the `Backup System` option
@@ -71,6 +74,7 @@ This backup system uses hand gestures to move the lamps.
 Note: This option does *NOT* allow someone else to manipulate the position and rotation of the light
 
 ### Hiding Lamps
+
 You may hide the meshes for the lamps if needed, or make them visible in camera. By default, lamps are not visible in-camera nor in mirrors.
 1. Go to the Lamp Visibility Menu
 2. Toggle on/off `Show in VRCLens` to appear or disappear in the camera
