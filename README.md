@@ -25,14 +25,8 @@ NOTE: This system requires **175 bits of expression memory!!!** Please make sure
 3. Drag and drop the LightingRig.prefab in `MetacosmStudios/Prefabs/LightingRig` into the root of your scene 
     * this is the blank section below anything in the hierarchy
 4. Drag the `LightingRig` prefab GameObject under your avatar root
-5. Unpack the prefab (no need to unpack completely)
-6. Drag the `LeftTarget` GameObject into your avatar's left hand and set the (local) position to `<0,0,0>`
-    * you may need to adjust `L Target` to fit your avatar, as this is where the lights go using the Legacy Settings
-7. Repeat step 6 with the `RightTarget` GameObject and the right hand
-8. Drag the the `ResetTarget` GameObject into your avatar's hip bone
-    * you may choose any descendent bone, but the hip is recommended
-    * This is a part of World Sync by Juzo, more info available in `Assets/WorldSync/ReadMe.md`
-9. Drag your avatar's hip bone into Cullfix's Parent Constraint source
+5. Adjust the `LightingRig/RightTarget` and `LightingRig/LeftTarget` objects to be positioned at the respective hands
+6. If needed, rotate the `LightingRig/RightTarget/RTarget` and `LightingRig/LeftTarget/RTarget` objects so that the +Z axis faces the direction going from the palm to the fingertips
 10. Upload your avatar as per usual
 
 ## Usage
@@ -54,7 +48,7 @@ Configure real-time light properties for Type, Color, Intensity, Range, Angle, a
 2. Change the light into either a `Directional`, `Point`, or `Spot` light, using the indicated toggles (or toggle off)
 3. Go into the `Properties` sub-menu to change the light properties
     1. Choose the light color using the `Color` sub-menu (uses RGB model)
-    2. Change the light strength using the `Intensity` radial 
+    2. Change the light strength using the `Intensity` radial (note the bug listed in the caveats section)
         * goes from  0%=>`0.01` to 50%=>`1` to 100%=>`10`
     3. Change the range using the `Range` radial 
         * goes from  0%=>`0.25m` to 50%=>`20.25m` to 100%=>`220.25m`
@@ -88,6 +82,8 @@ The Camera Shy shader included will be invisible on desktop if the client FOV is
 
 The physbones on the rig will jitter when the avatar-user is moving. This will not affect the light positioning.
 
+Please note that due to [this issue where radial menus briefly set their values to 100%](https://feedback.vrchat.com/avatar-30/p/bug-float-on-a-radial-open-on-wrong-value-remotely), **the intensity will flash at 100% when opening the radial!** (workaround pending).
+
 ## Authors
 
 PeachBight
@@ -97,7 +93,11 @@ PeachBight
 
 * 0.1 (2024-05-12)
     * Initial Public Release
-
+  1.1 (2024-05-26)
+    * Full release 
+    * Mesh shadowcasting fixed
+    * Light intensity more sensitive from %0 to %50
+    * Removed requirement for full-unpack
 ## License
 
 This project is licensed under the MIT License - see the `LICENSE.md` file for details
