@@ -7,6 +7,8 @@ A lighting rig avatar prefab for placing and controlling dynamic lights.
 This lighting rig was made for the purpose of making dynamic lights accessible to video makers and photographers.
 This avatar is able to sync most settings on dynamic lights except, with the biggest exception being the light position and rotation.
 
+This prefab was developed at Metacosm Studios, as was the packaged bot avatar.
+
 NOTE: This system requires **175 bits of expression memory!!!** Please make sure your avatar uses 81 bits or less of expression memory *without* the lighting rig.
 
 ## Getting Started
