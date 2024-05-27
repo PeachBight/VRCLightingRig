@@ -99,11 +99,12 @@ PeachBight
 
 * 0.1 (2024-05-12)
     * Initial Public Release
-  1.1 (2024-05-26)
+* 1.1 (2024-05-26)
     * Full release 
     * Mesh shadowcasting fixed
     * Light intensity more sensitive from %0 to %50
     * Removed requirement for full-unpack
+
 ## License
 
 This project is licensed under the MIT License - see the `LICENSE.md` file for details
