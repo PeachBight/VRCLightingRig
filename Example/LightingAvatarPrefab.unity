@@ -370,7 +370,7 @@ PrefabInstance:
     - target: {fileID: 7010685937676613742, guid: 6ee37423b19e064418f8c4e441746547,
         type: 3}
       propertyPath: m_Name
-      value: LightingAvatarPrefab_A1
+      value: LightingAvatarPrefab
       objectReference: {fileID: 0}
     - target: {fileID: 7638427244275835604, guid: 6ee37423b19e064418f8c4e441746547,
         type: 3}

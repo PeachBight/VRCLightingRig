@@ -1226,6 +1226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 356505285804379877}
+  - component: {fileID: 5196904777421373986}
   m_Layer: 0
   m_Name: RightTarget
   m_TagString: Untagged
@@ -1249,6 +1250,52 @@ Transform:
   - {fileID: 6866182282066486530}
   m_Father: {fileID: 7714418831622164304}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5196904777421373986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869069765356527533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.894.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8674609667029073966
+  references:
+    version: 2
+    RefIds:
+    - rid: 8674609667029073966
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 6
+        linkMode: 4
+        propBone: {fileID: 1869069765356527533}
+        linkTo:
+        - useBone: 1
+          bone: 18
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        keepBoneOffsets2: 0
+        removeBoneSuffix: 
+        skinRewriteScalingFactor: 0
+        scalingFactorPowersOf10Only: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
 --- !u!1 &1884571382064313949
 GameObject:
   m_ObjectHideFlags: 0
@@ -4262,6 +4309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3546212035055272287}
+  - component: {fileID: 683980485023262809}
   m_Layer: 0
   m_Name: LeftTarget
   m_TagString: Untagged
@@ -4285,6 +4333,52 @@ Transform:
   - {fileID: 6644823038435991609}
   m_Father: {fileID: 7714418831622164304}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &683980485023262809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6579548334339360747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.894.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8674609667029073967
+  references:
+    version: 2
+    RefIds:
+    - rid: 8674609667029073967
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 6
+        linkMode: 4
+        propBone: {fileID: 6579548334339360747}
+        linkTo:
+        - useBone: 1
+          bone: 17
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        keepBoneOffsets2: 0
+        removeBoneSuffix: 
+        skinRewriteScalingFactor: 0
+        scalingFactorPowersOf10Only: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
 --- !u!1 &6698210408530799466
 GameObject:
   m_ObjectHideFlags: 0
@@ -5257,7 +5351,7 @@ GameObject:
   - component: {fileID: 4423012304469924283}
   - component: {fileID: 6414203495648640721}
   - component: {fileID: 6627040581065335240}
-  - component: {fileID: 1367472827466402097}
+  - component: {fileID: 2126995427697908383}
   m_Layer: 0
   m_Name: Cullfix
   m_TagString: Untagged
@@ -5330,26 +5424,52 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1818360608 &1367472827466402097
-PositionConstraint:
+--- !u!114 &2126995427697908383
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8444857475574078493}
   m_Enabled: 1
-  serializedVersion: 2
-  m_Weight: 1
-  m_TranslationAtRest: {x: 0, y: 0, z: 0}
-  m_TranslationOffset: {x: 0, y: 0, z: 0}
-  m_AffectTranslationX: 1
-  m_AffectTranslationY: 1
-  m_AffectTranslationZ: 1
-  m_Active: 0
-  m_IsLocked: 0
-  m_Sources:
-  - sourceTransform: {fileID: 0}
-    weight: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.894.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8674609667029073971
+  references:
+    version: 2
+    RefIds:
+    - rid: 8674609667029073971
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 6
+        linkMode: 2
+        propBone: {fileID: 8444857475574078493}
+        linkTo:
+        - useBone: 1
+          bone: 0
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        keepBoneOffsets2: 0
+        removeBoneSuffix: 
+        skinRewriteScalingFactor: 0
+        scalingFactorPowersOf10Only: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
 --- !u!1 &8593660165339804634
 GameObject:
   m_ObjectHideFlags: 0
