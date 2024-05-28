@@ -8,6 +8,7 @@ This lighting rig was made for the purpose of making dynamic lights accessible t
 This avatar is able to sync most settings on dynamic lights except, with the biggest exception being the light position and rotation.
 
 This prefab was developed at Metacosm Studios, as was the packaged bot avatar.
+This prefab can be previewed on the publicly available [Mobile Lighting Unit](https://vrchat.com/home/avatar/avtr_767d8756-ebb4-4fd3-b9d9-a8317cc95fa2) avatar.
 
 NOTE: This system requires **175 bits of expression memory!!!** Please make sure your avatar uses 81 bits or less of expression memory *without* the lighting rig.
 
@@ -104,6 +105,9 @@ PeachBight
     * Mesh shadowcasting fixed
     * Light intensity more sensitive from %0 to %50
     * Removed requirement for full-unpack
+* 1.2 (2024-05-28)
+    * Fixed shadowcasting on indicators
+    * Added public avatar to README.md
 
 ## License
 
